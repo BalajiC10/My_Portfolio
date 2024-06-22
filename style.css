@@ -60,11 +60,17 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-family: Arial, sans-serif; /* Example: Change font-family to your preference */
+  background-color: white;
+  padding: 10px 20px; /* Adjust padding for better spacing */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  display: inline-block; /* Ensure it wraps around text content */
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: default; /* Keeps the default cursor on hover */
 }
+
 
 /* HAMBURGER MENU */
 
